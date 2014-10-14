@@ -1,0 +1,8 @@
+1、System.out.println("123”);
+    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    const-string v1, "123"
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+2、Log.d(“tag”, “”);
+    const-string v17, “tag"
+    move-object/from16 v0, v17
+    invoke-static {v0, v15}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
